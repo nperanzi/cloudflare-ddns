@@ -1,0 +1,4 @@
+#Ignore files with sensitive information
+cloudflare.log
+ip.txt
+cloudflare.ids
