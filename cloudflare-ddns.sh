@@ -1,12 +1,12 @@
 #!/bin/bash
 # Cloudflare as Dynamic DNS
-# From: INSERT LINK HERE
+# From: https://nickperanzi.com/blog/cloudflare-ddns-with-token/
 # Based on: https://letswp.io/cloudflare-as-dynamic-dns-raspberry-pi/
 # Based on: https://gist.github.com/benkulbertis/fff10759c2391b6618dd/
 # Original non-RPi article: https://phillymesh.net/2016/02/23/setting-up-dynamic-dns-for-your-registered-domain-through-cloudflare/
 
 # Update these with real values
-auth_token="paste-api-token-here" 
+auth_token="paste-api-token-here"
 zone_id="paste-zone-id-here"
 record_name="vpn.yourdomain.com"
 
